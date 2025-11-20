@@ -1,7 +1,7 @@
 services:
   nestjs:
     container_name: nestjs
-    image: nestjs:1.0.2
+    image: nestjs:1.0.3
     build:
       context: .
       dockerfile: Dockerfile
