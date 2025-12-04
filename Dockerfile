@@ -5,6 +5,8 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt update && apt upgrade -y
 
+RUN apt install -y curl
+
 WORKDIR /usr/src/app
 
 RUN npm i -g npm@11 typeorm
